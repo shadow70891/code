@@ -1,0 +1,20 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1743180768
+::res://phone UI/::1743124447
+down.png::CompressedTexture2D/CompressedTexture2D::7589978308286266344::1736926550::1743124446::1::::<><><>0<>0<>10e6acd2a709928f6c59728d4342e0dd<>res://.godot/imported/down.png-321fa4cbb930807e5b86bfd908f5a57d.ctex::
+downGray.png::CompressedTexture2D/CompressedTexture2D::773796820161963770::1736926550::1743124446::1::::<><><>0<>0<>91e2d8d0bb5a4fc4203f498b717e55d6<>res://.godot/imported/downGray.png-8a9923726ea2fca14c8d46d2c3dc9f47.ctex::
+left.png::CompressedTexture2D/CompressedTexture2D::327461960533804112::1736926550::1743124446::1::::<><><>0<>0<>17fb1c789c335c70a38640ffb254e322<>res://.godot/imported/left.png-c302be0b3ae5a8ef5a07e2e7f63a88eb.ctex::
+leftGray.png::CompressedTexture2D/CompressedTexture2D::4200254664660937688::1736926550::1743124446::1::::<><><>0<>0<>80f9e4e3db39b80c4b59e199f787f944<>res://.godot/imported/leftGray.png-58af750f1b147a7499cd8d6b95433b11.ctex::
+reload.png::CompressedTexture2D/CompressedTexture2D::1827356088739054219::1736926550::1743124446::1::::<><><>0<>0<>9db82f24404689ecae9ffa37136de0cd<>res://.godot/imported/reload.png-94ff127b63f02948cf6fcb0a30a035f3.ctex::
+reloadGray.png::CompressedTexture2D/CompressedTexture2D::8733372699320139725::1736926550::1743124446::1::::<><><>0<>0<>be5de9da55f43adea70d67a5a1ba84f0<>res://.godot/imported/reloadGray.png-bb95fea8ac9a65fb86c52111adc7582f.ctex::
+right.png::CompressedTexture2D/CompressedTexture2D::2300976165653763105::1736926550::1743124446::1::::<><><>0<>0<>825f7798300b8bf096ef074222e39e21<>res://.godot/imported/right.png-9e00a565d2d0397f83c210346fdaa5f4.ctex::
+rightGray.png::CompressedTexture2D/CompressedTexture2D::7172648838845685991::1736926550::1743124446::1::::<><><>0<>0<>78066f6e2d24d8fdcb1f6ee75f462848<>res://.godot/imported/rightGray.png-ded458212516708e2d4859f377db6b1e.ctex::
+shoot.png::CompressedTexture2D/CompressedTexture2D::324778910632414157::1736926550::1743124446::1::::<><><>0<>0<>fc54bbea0804a664d5af6df94e70b20e<>res://.godot/imported/shoot.png-4f76cc8429900367cc5a5b37c2e97488.ctex::
+shootGray.png::CompressedTexture2D/CompressedTexture2D::3869046865829488755::1736926550::1743124447::1::::<><><>0<>0<>ef3a9f76a776d1cfe1428b80c952ab11<>res://.godot/imported/shootGray.png-7200d7327235ec42a2df43a928b55a1f.ctex::
+up.png::CompressedTexture2D/CompressedTexture2D::5819339672314287092::1736926550::1743124447::1::::<><><>0<>0<>1ee7de28fe0ba8bbf841afd3c3a75fbd<>res://.godot/imported/up.png-fda7984c100d30cb4868318e86986bac.ctex::
+upGray.png::CompressedTexture2D/CompressedTexture2D::7517089693080550703::1736926550::1743124447::1::::<><><>0<>0<>50bedb069084deff5cd6c96fd7063e53<>res://.godot/imported/upGray.png-c2aa9ee5ea651e6513650788e1aaa620.ctex::
+::res://Player/::1743127591
+player.gd::GDScript/GDScript::314004870352751928::1743124839::0::1::::<>CharacterBody3D<><>0<>0<><>::
+player.tscn::PackedScene::1378818224182427418::1743127591::0::1::::<><><>0<>0<><>::uid://eqdu5f7auttg::::res://Player/player.gd<>uid://ewvir0o43j81::::res://phone UI/left.png<>uid://b03vt0ilv1a37::::res://phone UI/leftGray.png<>uid://71u0g561s7ib::::res://phone UI/right.png<>uid://dagqqjcs3g2f8::::res://phone UI/rightGray.png<>uid://co56w6mifmwsi::::res://phone UI/up.png<>uid://dfdlmsstiwfed::::res://phone UI/upGray.png<>uid://dgev3l51cdbdg::::res://phone UI/down.png<>uid://la3k5t43gy7k::::res://phone UI/downGray.png
+::res://Scenes/::1743127591
+main.tscn::PackedScene::6281536378304212938::1743127591::0::1::::<><><>0<>0<><>::uid://tv561rvfxcms::::res://Player/player.tscn
