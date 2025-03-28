@@ -1,0 +1,92 @@
+[gd_scene load_steps=17 format=3 uid="uid://tv561rvfxcms"]
+
+[ext_resource type="Script" uid="uid://eqdu5f7auttg" path="res://Player/player.gd" id="1_l8h54"]
+[ext_resource type="Texture2D" uid="uid://ewvir0o43j81" path="res://phone UI/left.png" id="2_00tjw"]
+[ext_resource type="Texture2D" uid="uid://b03vt0ilv1a37" path="res://phone UI/leftGray.png" id="3_x3vf3"]
+[ext_resource type="Texture2D" uid="uid://71u0g561s7ib" path="res://phone UI/right.png" id="4_apopc"]
+[ext_resource type="Texture2D" uid="uid://dagqqjcs3g2f8" path="res://phone UI/rightGray.png" id="5_5htga"]
+[ext_resource type="Texture2D" uid="uid://co56w6mifmwsi" path="res://phone UI/up.png" id="6_p5o4e"]
+[ext_resource type="Texture2D" uid="uid://dfdlmsstiwfed" path="res://phone UI/upGray.png" id="7_gu6f8"]
+[ext_resource type="Texture2D" uid="uid://dgev3l51cdbdg" path="res://phone UI/down.png" id="8_dkpta"]
+[ext_resource type="Texture2D" uid="uid://la3k5t43gy7k" path="res://phone UI/downGray.png" id="9_lfmf2"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_hvfyp"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_l8h54"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pisgm"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b1ygp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_o28un"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n471f"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7emwf"]
+
+[node name="Player" type="CharacterBody3D"]
+script = ExtResource("1_l8h54")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("CapsuleMesh_hvfyp")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("CapsuleShape3D_l8h54")
+
+[node name="head" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.64443, 0)
+
+[node name="Camera3D" type="Camera3D" parent="head"]
+current = true
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="left" type="TouchScreenButton" parent="CanvasLayer"]
+texture_filter = 1
+position = Vector2(111, 842)
+scale = Vector2(5, 5)
+texture_normal = ExtResource("2_00tjw")
+texture_pressed = ExtResource("3_x3vf3")
+shape = SubResource("RectangleShape2D_pisgm")
+passby_press = true
+action = "left"
+
+[node name="right" type="TouchScreenButton" parent="CanvasLayer"]
+texture_filter = 1
+position = Vector2(286, 845)
+scale = Vector2(5, 5)
+texture_normal = ExtResource("4_apopc")
+texture_pressed = ExtResource("5_5htga")
+shape = SubResource("RectangleShape2D_b1ygp")
+passby_press = true
+action = "right"
+
+[node name="up" type="TouchScreenButton" parent="CanvasLayer"]
+texture_filter = 1
+position = Vector2(200, 771)
+scale = Vector2(5, 5)
+texture_normal = ExtResource("6_p5o4e")
+texture_pressed = ExtResource("7_gu6f8")
+shape = SubResource("RectangleShape2D_o28un")
+passby_press = true
+action = "up"
+
+[node name="down" type="TouchScreenButton" parent="CanvasLayer"]
+texture_filter = 1
+position = Vector2(199, 931)
+scale = Vector2(5, 5)
+texture_normal = ExtResource("8_dkpta")
+texture_pressed = ExtResource("9_lfmf2")
+shape = SubResource("RectangleShape2D_n471f")
+passby_press = true
+action = "down"
+
+[node name="jump" type="TouchScreenButton" parent="CanvasLayer"]
+texture_filter = 1
+position = Vector2(1679, 876)
+scale = Vector2(5, 5)
+texture_normal = ExtResource("6_p5o4e")
+texture_pressed = ExtResource("7_gu6f8")
+shape = SubResource("RectangleShape2D_7emwf")
+passby_press = true
+action = "jump"
